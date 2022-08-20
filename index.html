@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Idioma español -->
+  <head>
+    <!-- Codificación utf8 -->
+    <meta charset="UTF-8" />
+    <!-- Título para mostrar en pestaña/ventana de navegador -->
+    <title>¡Hola, Mundo!</title>
+    <!-- Archivo de css a utilizar -->
+    <link rel="stylesheet" type="text/css" href="myStyle.css" />
+  </head>
+  <body>
+    <!-- Agrega div con atributo class = nav -->
+    <!-- <header> -->
+
+      <div class="nav">
+        <!-- Dentro de la div, agregar enlaces: -->
+        <!-- Hacia index.html -->
+        <a  href="/">Inicio</a>
+        <a  href="#yo">Acerca</a>
+        <a href="#conocimientos">Conocimientos</a>
+        <a href="#fortalezas">Fortalezas</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#personaje">Admiración</a>
+        <!-- Hacia formulario.html -->
+        <a href="./formulario.html">Formulario</a>
+      </div>
+    <!-- </header> -->
+    <!-- Utilizar rutas relativas -->
+
+    <!-- Encabezado principal con su nombre -->
+    <h1>Ximena G. Vega</h1>
+
+    <!-- Sección: "Acerca de mi" -->
+    <section id="yo">
+      <h2>Acerca de mi</h2>
+      <!-- Agregar párrafo donde pongan una breve introducción de ustedes mismos. -->
+      <p>
+        Estudio Ingeniería en Computación en la Universidad de Guadalajara
+      </p>
+      <p>
+        Me gusta mucho ver series y memes. 
+      </p>
+    </section>
+
+    <!-- Sección: "Mis conocimientos" -->
+    <section id="conocimientos">
+      <h3>Mis conocimientos</h3>
+      <!-- Crear lista no ordenada de conocimientos (mínimo 5). Pueden ser lenguajes de programación/framewors u otros no relacionados (fotografía, edición de video...) -->
+      <ul>
+        <li>Bordar</li>
+        <li>Tejer</li>
+        <li>React</li>
+        <li>Python</li>
+        <li>Postear memes</li>
+      </ul>
+    </section>
+
+    <!-- Sección: "Mis fortalezas" -->
+    <section id="fortalezas">
+      <!-- Crear lista ordenada de tus principales fortalezas (mínimo 3). Caracterísitcas que consideres te distingan -->
+      <h3>Mis fortalezas</h3>
+      <ol>
+        <li>
+          <p>
+            Soy una persona muy amable y responsable.
+          </p>
+        </li>
+        <li>
+          <p>
+            Soy una persona muy organizada.
+          </p>
+        </li>
+        <li>
+          <p>
+            Soy una persona muy responsable.
+          </p>
+        </li>
+    </section>
+
+    <!-- Sección: "Proyectos" -->
+    <section id="proyectos">
+      <h3>Proyectos</h3>
+      <!-- Agregar tabla con columnas: -->
+      <!-- Nombre del proyecto -->
+      <!-- Lenguaje(s) -->
+      <!-- Descripción -->
+      
+      <table>
+        <tr>
+          <th>Nombre del proyecto</th>
+          <th>Lenguaje(s)</th>
+          <th>Descripción</th>
+        </tr>
+        <!-- Agregar al menos 3 proyectos que hayan realizado. -->
+        <tr>
+          <td>Proyecto 1</td>
+          <td>Lenguaje 1</td>
+          <td>Descripción 1</td>
+        </tr>
+        <tr>
+          <td>Proyecto 2</td>
+          <td>Lenguaje 2</td>
+          <td>Descripción 2</td>
+        </tr>
+        <tr>
+          <td>Proyecto 3</td>
+          <td>Lenguaje 3</td>
+          <td>Descripción 3</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Sección: "Persona que admiro" -->
+    <section id="personaje">
+      <h4>Persona/je que admiro</h4>
+      <!-- Agregar fotografía de la persona. // ruta relativa -->
+      <img src="./Saltiago.png" width="200px">
+      <!-- Agregar párrafo con el nombre de la persona en negritas y una breve descripción de quien es. -->
+      <p>
+        <strong>Saltiago</strong>
+        <br />
+        <br />
+        <em>Es un vecino que tengo en el juego Animal Crossing, es un personaje que ha sido muy amable conmigo, siempre me recuerda quién soy y le gustan mucho los videojuegos</em>
+      </p>
+      <!-- Agregar enlace hacia wikipedia o sitio donde se pueda consultar su biografía // Abrir en nueva pestaña -->
+      
+      <a href="https://animalcrossing.soopoolleaf.com/es/acna/Hopkins/" target="_blank">
+          <strong>Wikipedia</strong>
+      </a>
+    </section>
+
+
+    <!-- Agrega una div con atributo class = footer que incluya: -->
+    <div class="footer">
+
+      <!-- Sección: "Contáctame en..." (o algo similar) -->
+        <section>
+          <h5>Contáctame en...</h5>
+          <!-- Agregar enlace hacia una página de contacto (puede ser un formulario) -->
+          <a href="./formulario.html">
+            Formulario
+          </a>
+          <!-- Enlace a correo electrónico //utilizar mail to -->
+          <a href="mailto:ximena.garcia7482@alumnos.udg.mx">Correo</a>
+        </section>
+    </div>
+  </body>
+</html>

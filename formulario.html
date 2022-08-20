@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- - Título "Contacto" -->
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="formStyle.css" />
+  </head>
+  <body>
+    <div>
+      <a href="./index.html">Volver</a>
+    </div>
+    <!-- - Agregar formulario, especificar método (get) y destino (mismo archivo): -->
+    <form action="formulario.html" method="get">
+      <!-- - Todos los campos deben tener su label respectivo y atributo name -->
+      <!-- - Nombre // texto -->
+      <div class="my-div">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" />
+      </div>
+
+      <!-- - Correo // mail -->
+      <div class="my-div">
+        <label for="correo">Correo</label>
+        <input type="email" name="correo" id="correo" />
+      </div>
+
+      <!-- - Contraseña // password -->
+      <div class="my-div">
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="contraseña" />
+      </div>
+
+      <!-- - Genero // radio -->
+      <div>
+        <label for="genero">Genero</label>
+        <input type="radio" name="genero" id="genero" value="hombre" />Hombre
+        <input type="radio" name="genero" id="genero" value="mujer" />Mujer
+      </div>
+
+      <!-- - Comentario // text area -->
+      <div class="my-div">
+        <label for="comentario">Comentario</label>
+        <textarea
+          name="comentario"
+          id="comentario"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+
+      <!-- - Ciudad: Guadalajara, Zapopan, Tonalá, Otra // select -->
+      <div class="my-div">
+        <label for="ciudad">Ciudad</label>
+        <select name="ciudad" id="ciudad">
+          <option value="guadalajara">Guadalajara</option>
+          <option value="tlaquepaque">Tlaquepaque</option>
+          <option value="zapotlanejo">Zapotlanejo</option>
+          <option value="jalos">Jalostitlan</option>
+        </select>
+      </div>
+
+      <!-- - Me interesa contratarte // check -->
+      <div>
+        <label for="meinteresa">Me interesa contratarte</label>
+        <input type="checkbox" name="meinteresa" id="meinteresa" />
+      </div>
+      <div class="my-div">
+        <!-- - Botón para enviar // button o input -->
+        <button onclick="submit">Enviar</button>
+      </div>
+    </form>
+  </body>
+</html>

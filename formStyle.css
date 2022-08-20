@@ -1,0 +1,99 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ede9fe;
+  padding: 20px;
+}
+
+form {
+  display: flexbox;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+#genero {
+  justify-content: left;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid rgb(124, 99, 227);
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+#correo {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+#nombre {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+#contraseña {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+input[type="radio"] {
+  margin-left: 15px;
+}
+
+.my-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+label {
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.selector {
+  align-items: baseline;
+}
